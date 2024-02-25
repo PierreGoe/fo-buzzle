@@ -1,4 +1,9 @@
-module.exports = {
-    publicPath: process.env.NODE_ENV === "production" ? "/fo-buzzle/" : "/",
-  };
-  
+export default defineConfig({
+    base: "/fo-buzzle/",
+    plugins: [],
+    resolve: {
+      alias: [
+        
+      ]
+    },
+  })
